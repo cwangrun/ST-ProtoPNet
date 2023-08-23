@@ -3,15 +3,15 @@
 ### Pytorch Implementation for the paper ["Learning Support and Trivial Prototypes for Interpretable Image Classification"](https://arxiv.org/pdf/2301.04011.pdf) published at ICCV 2023.
 
 <div align=center>
-<img width="450" height="245" src="https://github.com/cwangrun/ST-ProtoPNet/blob/master/full/arch/intro.png"/></dev>
+<img width="460" height="245" src="https://github.com/cwangrun/ST-ProtoPNet/blob/master/full/arch/intro.png"/></dev>
 </div>
 
 In this work, we make an analogy between the prototype learning from ProtoPNet and support vector learning from SVM, and propose to learn support (i.e., hard-to-learn) prototypes,
-in comparison with trivial (i.e., easy-to-learn) prototypes, by forcing prototypes of different classes to locate near the classification boundary in the latent space. 
-In addition, we present the ST-ProtoPNet to exploit both support and trivial prototypes for complementary and interpretable image classification.
+in comparison with trivial (i.e., easy-to-learn) prototypes, by forcing prototypes of different classes to locate near the classification boundary in the latent space (see figure above). 
+In addition, we present the ST-ProtoPNet (see figure below) to exploit both support and trivial prototypes for complementary and interpretable image classification.
 
 <div align=center>
-<img width="480" height="300" src="https://github.com/cwangrun/ST-ProtoPNet/blob/master/full/arch/arch.png"/></dev>
+<img width="460" height="245" src="https://github.com/cwangrun/ST-ProtoPNet/blob/master/full/arch/arch.png"/></dev>
 </div>
 
 This repository is built mainly based on publicly available code from [ProtoPNet](https://github.com/cfchen-duke/ProtoPNet) and [TesNet](https://github.com/JackeyWang96/TesNet).
