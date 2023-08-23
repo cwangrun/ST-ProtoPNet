@@ -41,7 +41,7 @@ the similarity maps of the test image with these training prototypes will be com
 
 ## Other experiments:
 1. Measure interpretability using Intersection over Union (IoU), [Content Heatmap (CH)](https://github.com/UMBCvision/Explainable-Models-with-Consistent-Interpretations), [Outside-Inside Relevance Ratio (OIRR)](https://openaccess.thecvf.com/content_cvpr_2016/papers/Bach_Analyzing_Classifiers_Fisher_CVPR_2016_paper.pdf), and [Deletion AUC (DAUC)](https://github.com/eclique/RISE).
-2. Since CH, IoU, and OIRR require object annotations, we extract the binary [bird segmentation masks](https://data.caltech.edu/records/w9d68-gec53) from full CUB.
+2. Since CH, IoU, and OIRR require object annotations, we extract the binary [bird segmentation masks](https://data.caltech.edu/records/w9d68-gec53) from full CUB-200-2011.
 3. Run ./full/interpretability, providing the following arguments: trained model path, test_dir, ground-truth mask path.
 
 
