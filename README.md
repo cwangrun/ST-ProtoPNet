@@ -11,7 +11,7 @@ in comparison with trivial (i.e., easy-to-learn) prototypes, by forcing prototyp
 In addition, we present the ST-ProtoPNet to exploit both support and trivial prototypes for complementary and interpretable image classification.
 
 <div align=center>
-<img width="320" height="300" src="https://github.com/cwangrun/ST-ProtoPNet/blob/master/full/arch/arch.png"/></dev>
+<img width="320" height="380" src="https://github.com/cwangrun/ST-ProtoPNet/blob/master/full/arch/arch.png"/></dev>
 </div>
 
 This repository is built mainly based on publicly available code from [ProtoPNet](https://github.com/cfchen-duke/ProtoPNet) and [TesNet](https://github.com/JackeyWang96/TesNet).
