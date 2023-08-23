@@ -3,7 +3,7 @@
 ### Pytorch Implementation for the paper ["Learning Support and Trivial Prototypes for Interpretable Image Classification"](https://arxiv.org/pdf/2301.04011.pdf) published at ICCV 2023.
 
 <div align=center>
-<img width="400" height="230" src="https://github.com/cwangrun/ST-ProtoPNet/blob/master/full/arch/intro.png"/></dev>
+<img width="450" height="245" src="https://github.com/cwangrun/ST-ProtoPNet/blob/master/full/arch/intro.png"/></dev>
 </div>
 
 In this work, we make an analogy between the prototype learning from ProtoPNet and support vector learning from SVM, and propose to learn support (i.e., hard-to-learn) prototypes,
