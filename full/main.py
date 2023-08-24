@@ -172,7 +172,7 @@ else:
 # define optimizer
 from settings_CUB_DOG import joint_optimizer_lrs, joint_lr_step_size
 
-if base_architecture == 'resnet50':
+if base_architecture == 'resnet50' or dataset_name == "DOG":
     joint_optimizer_lrs['features'] = 1e-5
 
 joint_optimizer_specs = \
