@@ -1,6 +1,6 @@
 # Learning Support and Trivial Prototypes for Interpretable Image Classification
 
-### Pytorch Implementation for the paper "[Learning Support and Trivial Prototypes for Interpretable Image Classification](https://arxiv.org/pdf/2301.04011.pdf)" published at ICCV 2023.
+### Pytorch Implementation for the paper "[Learning Support and Trivial Prototypes for Interpretable Image Classification](https://openaccess.thecvf.com/content/ICCV2023/papers/Wang_Learning_Support_and_Trivial_Prototypes_for_Interpretable_Image_Classification_ICCV_2023_paper.pdf)" published at ICCV 2023.
 
 <div align=center>
 <img width="460" height="255" src="https://github.com/cwangrun/ST-ProtoPNet/blob/master/full/arch/intro.png"/></dev>
@@ -52,7 +52,7 @@ the similarity maps of the test image with these training prototypes will be com
   title={Learning Support and Trivial Prototypes for Interpretable Image Classification},
   author={Wang, Chong and Liu, Yuyuan and Chen, Yuanhong and Liu, Fengbei and Tian, Yu and McCarthy, Davis J and Frazer, Helen and Carneiro, Gustavo},
   booktitle={Proceedings of the IEEE/CVF International Conference on Computer Vision},
-  pages={351--363},
+  pages={2062--2072},
   year={2023}
 }
 ```
