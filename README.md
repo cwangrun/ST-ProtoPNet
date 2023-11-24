@@ -8,7 +8,7 @@
 
 In this work, we make an analogy between the prototype learning from ProtoPNet and support vector learning from SVM, and propose to learn support (i.e., hard-to-learn) prototypes,
 in comparison with trivial (i.e., easy-to-learn) prototypes, by forcing prototypes of different classes to locate near the classification boundary in the latent space (see figure above). 
-In addition, we present the ST-ProtoPNet (see figure below) to exploit both support and trivial prototypes for complementary and interpretable image classification.
+In addition, we present the ST-ProtoPNet (see figure below) to exploit both support and trivial prototypes for complementary and interpretable image classification. Email: chongwangsmu@gmail.com
 
 <div align=center>
 <img width="460" height="245" src="https://github.com/cwangrun/ST-ProtoPNet/blob/master/full/arch/arch.png"/></dev>
