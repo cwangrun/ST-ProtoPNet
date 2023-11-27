@@ -272,7 +272,7 @@ def update_prototypes_on_batch(search_batch_input,
                     heatmap = cv2.applyColorMap(np.uint8(255*rescaled_act_img_j), cv2.COLORMAP_JET)
                     heatmap = np.float32(heatmap) / 255
                     heatmap = heatmap[...,::-1]
-                    overlayed_original_img_j = 0.5 * original_img_j + 0.3 * heatmap
+                    overlayed_original_img_j = 0.75 * original_img_j + 0.25 * heatmap
                     plt.imsave(os.path.join(dir_for_saving_prototypes,
                                             str(j) + prototype_img_filename_prefix + '-original_with_self_act' + '.png'),
                                overlayed_original_img_j,
