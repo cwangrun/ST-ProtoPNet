@@ -255,6 +255,7 @@ def construct_STProtoPNet(base_architecture, pretrained=True, img_size=224,
                                                          layer_strides=layer_strides,
                                                          layer_paddings=layer_paddings,
                                                          prototype_kernel_size=prototype_shape[2])
+    proto_layer_rf_info[0], proto_layer_rf_info[1] = 14, 16  # fix exceeding feature size for ResNet and DenseNet
     return STProtoPNet(features=features,
                        img_size=img_size,
                        prototype_shape=prototype_shape,
